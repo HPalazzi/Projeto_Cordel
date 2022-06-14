@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedicatoria</title>
+    <link rel="icon" href="imagens/flor.png">
+    <style>
+        @charset "UTF-8";
+
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Amatic        +SC:wght@400;700&display=swap');
+
+        :root{
+            --cor0001: #FFF7E9;
+            --cor0002: #f8a29f;
+            --cor0003: #ef2f65c9;
+            --font001: Verdana, Geneva, Tahoma, sans-serif;
+            --font002: 'Amatic SC', cursive;
+            --font003: 'Libre Baskerville', serif;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{
+            font-family: var(--font001);
+            min-height: 100vh;
+            background-color: var(--cor0001);
+        }
+        header{
+            background-color: var(--cor0003);
+            color: white;
+            text-align: center;
+        }
+        header > h1{
+            font-family: var(--font002);
+            padding-top: 50px;
+            font-variant: small-caps;
+            font-size: 8.5vw;
+        }
+        header > p{
+            padding-bottom: 50px;
+        }
+        header a, footer a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        header a:hover, footer a:hover{
+            color: var(--cor0002);
+            transition: 0.5s;
+        }
+        section{
+            font-family: var(--font003);
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 50px;
+            font-size: 2vw;
+        }
+        section > p{
+            padding-bottom: 2em;
+        }
+        section.normal{
+            background-color: white;
+            color: black;
+        }
+        section.imagem{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        section.imagem > p{
+            display: inline-block;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.500);
+            text-shadow: 1px 1px 0px black;
+        }
+        section#img01{
+            background-image: url(imagens/background001.png);
+            background-position: center center;
+
+        }
+        footer{
+            background-color: var(--cor0003);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aquela Flor</h1>
+        <p>Por <a href="https://www.instagram.com/erick_dantasss/" target="_blank">Erick Dantas</a></p>
+    </header>
+    <main>
+        <section class="normal">
+            <p>
+                Provei do mais doce que uma dor pode dar <br>
+                aproveitei cada minuto ao lhe apreciar <br>
+                vi o quão bela a paisagem fica quando esta por lá <br>
+                o tato e o cheiro das quais não tive como evitar;
+            </p>
+        </section>
+        <section class="imagem" id="img01">
+            <p>
+                Uma linda rosa que veio ao meu jardim germinar <br>                senti o que nunca antes havia presenciado <br>   
+                a complexa emoção de seu desabrochar <br>   
+                agora entendo o fascínio daquele botânico <br>   
+                que ao ver tal fenômeno estariam a comemorar
+            </p>
+        </section>
+        <section class="normal">
+            <p>
+                Mas assim como qualquer ser, a flor se vai <br>
+                e deixa consigo o seu encantar <br>
+                e me resta a sua pétala que cai <br>
+                mesmo que não queira te deixar, <br>
+                mas a natureza não se controla, você aprende a lidar
+            </p>
+            <p>
+                E como de costume volto ao meu jardim regar <br>
+                em busca de sentir o que essa flor veio a me causar, <br>
+                com sua doce presença ao me acompanhar <br>
+                pois bem, lá se foi o rosa do meu pomar.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p><em>"Para o meu irmão de outra mãe, baseado nas <a href="https://arquiteturadasflores.com.br/significado-das-flores/#:~:text=As%20flores%20sao%20s%C3%ADmbolo%20da,de%20qualidade%20de%20vida%2C%20etc%E2%80%A6" target="_blank">rosas</a> desse vasto jardim."</em></p>
+    </footer>
+</body>
+</html>

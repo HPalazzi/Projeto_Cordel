@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedicatoria</title>
+    <link rel="icon" href="imagens/flor.png">
+    <style>
+        @charset "UTF-8";
+
+        /*Corpo*/@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+        /*Header*/ @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+        :root{
+            --cor0001: #e6ce89; /*Corpo*/
+            --cor0002: #A6691F;
+            --cor0003: #F2C53D; /*Header*/
+            --font001: Verdana, Geneva, Tahoma, sans-serif;
+            --font002: 'Allura', cursive; /*Header*/
+            --font003: 'Libre Baskerville', serif; /*Corpo*/
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{
+            font-family: var(--font001);
+            min-height: 100vh;
+            background-color: var(--cor0001);
+        }
+        header{
+            background-color: var(--cor0003);
+            color: white;
+            text-align: center;
+        }
+        header > h1{
+            font-family: var(--font002);
+            padding-top: 50px;
+            font-size: 8.5vw;
+        }
+        header > p{
+            padding-bottom: 50px;
+        }
+        header a, footer a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        header a:hover, footer a:hover{
+            color: var(--cor0002);
+            transition: 0.5s;
+        }
+        section{
+            font-family: var(--font003);
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 50px;
+            font-size: 2vw;
+        }
+        section > p{
+            padding-bottom: 2em;
+        }
+        section.normal{
+            background-color: white;
+            color: black;
+        }
+        section.imagem{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        section.imagem > p{
+            display: inline-block;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.500);
+            text-shadow: 1px 1px 0px black;
+        }
+        section#img01{
+            background-image: url(imagens/background002.png);
+            background-position: center center;
+
+        }
+        footer{
+            background-color: var(--cor0003);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sentimento singelo</h1>
+        <p>Por <a href="https://www.instagram.com/erick_dantasss/" target="_blank">Erick Dantas</a></p>
+    </header>
+    <main>
+        <section class="normal">
+            <p>
+                Continuo estarrecido <br>
+                O coração acelera só de imaginar <br>
+                Em cada cenário em que me encontro <br>
+                Você parece vagar por lá
+            </p>
+        </section>
+        <section class="imagem" id="img01">
+            <p>
+                Meus devaneios buscam teus abraços, <br>
+                E trazem à tona seus beijos <br>
+                Doces como sonetos <br>
+                Dos quais adorei apreciar
+            </p>
+        </section>
+        <section class="normal">
+            <p>
+                Instigam o "id" do meu ser <br>
+                Ditam as sinapses que me configuram você <br>
+                Um impalpável sentimento de prazer <br>
+                Reviram minha mente de uma forma que não se prevê 
+            </p>
+            <p>
+                Tudo isso a todo instante, <br>
+                Talvez uma saudade <br> 
+                Com um tom angustiante <br>
+                Não sei se saudável, mas é como se sente.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p><em>"Para o meu irmão de outra mãe, feito pensando nas <a href="https://arquiteturadasflores.com.br/significado-das-flores/#:~:text=As%20flores%20sao%20s%C3%ADmbolo%20da,de%20qualidade%20de%20vida%2C%20etc%E2%80%A6" target="_blank">tulipas amarelas</a> que tanto te encantam."</em></p>
+    </footer>
+</body>
+</html>

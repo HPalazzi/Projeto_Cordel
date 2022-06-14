@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedicatoria</title>
+    <link rel="icon" href="imagens/flor.png">
+    <style>
+        @charset "UTF-8";
+
+        /*Corpo*/@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+        /*Header*/ @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+        :root{
+            --cor0001: #D7D9D7; /*Corpo*/
+            --cor0002: #647356; /*Links*/
+            --cor0003: #192026; /*Header*/
+            --font001: Verdana, Geneva, Tahoma, sans-serif;
+            --font002: 'Tangerine', cursive; /*Header*/
+            --font003: 'Libre Baskerville', serif; /*Corpo*/
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{
+            font-family: var(--font001);
+            min-height: 100vh;
+            background-color: var(--cor0001);
+        }
+        header{
+            background-color: var(--cor0003);
+            color: white;
+            text-align: center;
+        }
+        header > h1{
+            font-family: var(--font002);
+            padding-top: 50px;
+            font-size: 8.5vw;
+        }
+        header > p{
+            padding-bottom: 50px;
+        }
+        header a, footer a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        header a:hover, footer a:hover{
+            color: var(--cor0002);
+            transition: 0.5s;
+        }
+        section{
+            font-family: var(--font003);
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 50px;
+            font-size: 2vw;
+        }
+        section > p{
+            padding-bottom: 2em;
+        }
+        section.normal{
+            background-color: white;
+            color: black;
+        }
+        section.imagem{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        section.imagem > p{
+            display: inline-block;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.500);
+            text-shadow: 1px 1px 0px black;
+        }
+        section#img01{
+            background-image: url(imagens/background003.png);
+            background-position: center center;
+
+        }
+        footer{
+            background-color: var(--cor0003);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Angústia</h1>
+        <p>Por <a href="https://www.instagram.com/erick_dantasss/" target="_blank">Erick Dantas</a></p>
+    </header>
+    <main>
+        <section class="normal">
+            <p>
+                Uma angústia que assola o peito <br>
+                Da qual me deleito <br>
+                De uma ansiedade que não controlo <br>
+                Não sei se só de te ver ou só de pensar
+            </p>
+        </section>
+        <section class="imagem" id="img01">
+            <p>
+                Com mínimos gestos me derramo em devaneios <br>
+                Mas só de lembrar que “O futuro depende de você” <br>
+                Molda um semblante que não gosto de estar <br>
+                Sendo assim... Aprenderei a lidar <br>
+                Seja por mim <br>
+                Seja por você
+            </p>
+        </section>
+        <section class="normal">
+            <p>
+                O que sinto não posso descrever <br>
+                É demais para interpretar, <br>
+                O que me resta é expelir <br>
+                Numa tentativa desesperada de amenizar <br>
+                Este vazio que insiste em me apertar.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p><em>"Para o meu irmão de outra mãe, tentando reprensentar a <a href="https://www.significados.com.br/acucena/#:~:text=Muitas%20pessoas%20conhecem%20esta%20flor,pode%20estar%20associada%20%C3%A0%20pureza." target="_blank">açucena</a> que você tanto regou no seu coração."</em></p>
+    </footer>
+</body>
+</html>
